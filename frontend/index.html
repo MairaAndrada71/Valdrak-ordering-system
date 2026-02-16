@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>VALDRAK Ordering Service</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>VALDRAK</h1>
+    <p class="subtitle">Medieval Ordering Service</p>
+
+    <form id="orderForm">
+
+      <label for="table">Table number</label>
+      <input type="number" id="table" min="1" required />
+
+      <label for="food">Food</label>
+      <select id="food">
+        <option value="Pizza">Pizza</option>
+        <option value="Hamburger">Hamburger</option>
+      </select>
+
+      <label for="foodQty">Food quantity</label>
+      <input type="number" id="foodQty" min="1" value="1" required />
+
+      <label for="drink">Drink</label>
+      <select id="drink">
+        <option value="Water">Water</option>
+        <option value="Soda">Soda</option>
+      </select>
+
+      <label for="drinkQty">Drink quantity</label>
+      <input type="number" id="drinkQty" min="1" value="1" required />
+
+      <button type="submit">Send Order</button>
+    </form>
+
+    <div class="footer">
+      © ValDrak Tavern
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
