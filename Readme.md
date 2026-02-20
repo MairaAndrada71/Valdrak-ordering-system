@@ -1,4 +1,4 @@
-# Kitchen Ordering System
+# Ordering System
 
 Este proyecto comenzó como una práctica simple para conectar un frontend con un backend usando JavaScript y Node.js. La idea inicial era poder enviar pedidos desde una interfaz básica y recibirlos en el servidor.
 
